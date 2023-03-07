@@ -10,15 +10,15 @@ public class TurnOnOff : MonoBehaviour
     public void TurnOn()
     {
 
-        playerRB.useGravity = true;
-        playerRB.isKinematic = false;
+        //playerRB.useGravity = true;
+       //playerRB.isKinematic = false;
         player.GetComponent<Movement>().enabled = true;
     }
-
+    
     public void TurnOff()
     {
-        playerRB.useGravity = false;
-        playerRB.isKinematic = true;
+        //playerRB.useGravity = false;
+        //playerRB.isKinematic = true;
         player.GetComponent<Movement>().enabled = false;
     }
 }
