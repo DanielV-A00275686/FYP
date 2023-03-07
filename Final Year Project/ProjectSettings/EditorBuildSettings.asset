@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FYP/FYP.unity
     guid: 39ae0e546b9edc0408d3b11c6a7c2814
+  - enabled: 0
+    path: Assets/FYP/photonEx.unity
+    guid: 3a596d24e8ee8c049958d433e345a1cb
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 24f4ff0c02eda8349a1f411a706124f5,
       type: 2}
